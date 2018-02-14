@@ -1,0 +1,10 @@
+.parent {
+  display: flex;
+  height:80vh;
+}
+
+.card {
+  width: 400px;
+  height: 200px;
+  margin: auto; 
+}
