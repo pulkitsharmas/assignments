@@ -2,9 +2,15 @@
   display: flex;
   height:80vh;
 }
-
+.example-container {
+  display: flex;
+  flex-direction: column;
+}
+.example-form mat-form-field {
+  margin-bottom: 10px;
+}
 .card {
   width: 400px;
   height: 200px;
-  margin: auto; 
+  margin: auto;
 }
