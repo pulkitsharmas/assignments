@@ -13,11 +13,13 @@ import {MatFormFieldModule} from '@angular/material/';
 import {MatIconModule} from '@angular/material/';
 import {MatButtonModule} from '@angular/material/';
 import { HomeComponent } from './home/home.component';
+import { InventoryComponent } from './inventory/inventory.component';
 @NgModule({
   declarations: [
     AppComponent,
     LoginComponent,
-    HomeComponent
+    HomeComponent,
+    InventoryComponent
   ],
   imports: [
     BrowserModule,
