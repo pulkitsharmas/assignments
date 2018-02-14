@@ -14,15 +14,28 @@ import {MatIconModule} from '@angular/material/';
 import {MatButtonModule} from '@angular/material/';
 import { HomeComponent } from './home/home.component';
 import { InventoryComponent } from './inventory/inventory.component';
+import {MatSidenavModule} from '@angular/material/';
+import {MatCheckboxModule} from '@angular/material/';
+import {MatListModule} from '@angular/material/';
+import { CardViewComponent } from './card-view/card-view.component';
+import { TableViewComponent } from './table-view/table-view.component';
+import { ItemDetailViewComponent } from './item-detail-view/item-detail-view.component';
+
 @NgModule({
   declarations: [
     AppComponent,
     LoginComponent,
     HomeComponent,
-    InventoryComponent
+    InventoryComponent,
+    CardViewComponent,
+    TableViewComponent,
+    ItemDetailViewComponent
   ],
   imports: [
     BrowserModule,
+    MatCheckboxModule,
+    MatListModule,
+    MatSidenavModule,
     MatInputModule,
     MatIconModule,
     MatButtonModule,

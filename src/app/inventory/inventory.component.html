@@ -1,3 +1,15 @@
-<p>
-  inventory works!
-</p>
+<mat-sidenav-container class="example-container">
+    <mat-sidenav #sidenav mode="side" opened="true" class="example-sidenav"
+                 [fixedInViewport]="fixed"
+                 [class.mat-elevation-z5]="true">
+
+                 <mat-nav-list>
+   <a mat-list-item routerLink='/inventory' >InventoryComponent</a>
+   <a mat-list-item routerLink='/inventory' >Accounts</a>
+</mat-nav-list>
+    </mat-sidenav>
+
+    <mat-sidenav-content>
+      <app-login></app-login>
+    </mat-sidenav-content>
+  </mat-sidenav-container>
