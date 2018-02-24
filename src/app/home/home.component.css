@@ -1,0 +1,26 @@
+.example-fill-remaining-space {
+  /* This fills the remaining space, by using flexbox.
+     Every toolbar row uses a flexbox row layout. */
+  flex: 1 1 auto;
+}
+.toolbar {
+  z-index: 1;
+}
+body {
+  padding: 0;
+}
+
+.example-container {
+  display: flex;
+  flex-direction: column;
+  min-width: 300px;
+  margin-top: 10px;
+}
+
+.mat-table {
+  overflow: auto;
+  max-height: 80vh;
+}
+
+.a {font-size: 14px;;}
+.b{margin-right: 30px;}

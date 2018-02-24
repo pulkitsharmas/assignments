@@ -20,6 +20,8 @@ import {MatListModule} from '@angular/material/';
 import { CardViewComponent } from './card-view/card-view.component';
 import { TableViewComponent } from './table-view/table-view.component';
 import { ItemDetailViewComponent } from './item-detail-view/item-detail-view.component';
+import {MatTableModule} from '@angular/material/';
+import {MatDialogModule} from '@angular/material/dialog';
 
 @NgModule({
   declarations: [
@@ -35,14 +37,16 @@ import { ItemDetailViewComponent } from './item-detail-view/item-detail-view.com
     BrowserModule,
     MatCheckboxModule,
     MatListModule,
+    MatDialogModule,
     MatSidenavModule,
+    MatTableModule,
     MatInputModule,
     MatIconModule,
     MatButtonModule,
     MatFormFieldModule,
     FormsModule,
     ReactiveFormsModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
     MatToolbarModule,
     AppRoutingModule,
     MatCardModule

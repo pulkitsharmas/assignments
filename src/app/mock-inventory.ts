@@ -1,0 +1,30 @@
+import { Item } from './item';
+
+export const ITEMS: Item[] = [
+  {name: 'Nike Sneakers', unit: 'pieces', quantity: 25, unitPrice: 4000, totalAmount: 10000},
+  {name: 'Pencil', unit: 'dozen', quantity: 5, unitPrice:  100, totalAmount: 500},
+  {name: 'Nike Sneakers', unit: 'pieces', quantity: 25, unitPrice: 4000, totalAmount: 10000},
+  {name: 'Pencil', unit: 'dozen', quantity: 5, unitPrice:  100, totalAmount: 500},
+  {name: 'Nike Sneakers', unit: 'pieces', quantity: 25, unitPrice: 4000, totalAmount: 10000},
+  {name: 'Pencil', unit: 'dozen', quantity: 5, unitPrice:  100, totalAmount: 500},
+  {name: 'Nike Sneakers', unit: 'pieces', quantity: 25, unitPrice: 4000, totalAmount: 10000},
+  {name: 'Pencil', unit: 'dozen', quantity: 5, unitPrice:  100, totalAmount: 500},
+  {name: 'Nike Sneakers', unit: 'pieces', quantity: 25, unitPrice: 4000, totalAmount: 10000},
+  {name: 'Pencil', unit: 'dozen', quantity: 5, unitPrice:  100, totalAmount: 500},
+  {name: 'Nike Sneakers', unit: 'pieces', quantity: 25, unitPrice: 4000, totalAmount: 10000},
+  {name: 'Pencil', unit: 'dozen', quantity: 5, unitPrice:  100, totalAmount: 500},
+  {name: 'Nike Sneakers', unit: 'pieces', quantity: 25, unitPrice: 4000, totalAmount: 10000},
+  {name: 'Pencil', unit: 'dozen', quantity: 5, unitPrice:  100, totalAmount: 500},
+  {name: 'Nike Sneakers', unit: 'pieces', quantity: 25, unitPrice: 4000, totalAmount: 10000},
+  {name: 'Pencil', unit: 'dozen', quantity: 5, unitPrice:  100, totalAmount: 500},
+  {name: 'Nike Sneakers', unit: 'pieces', quantity: 25, unitPrice: 4000, totalAmount: 10000},
+  {name: 'Pencil', unit: 'dozen', quantity: 5, unitPrice:  100, totalAmount: 500},
+  {name: 'Nike Sneakers', unit: 'pieces', quantity: 25, unitPrice: 4000, totalAmount: 10000},
+  {name: 'Pencil', unit: 'dozen', quantity: 5, unitPrice:  100, totalAmount: 500},
+  {name: 'Nike Sneakers', unit: 'pieces', quantity: 25, unitPrice: 4000, totalAmount: 10000},
+  {name: 'Pencil', unit: 'dozen', quantity: 5, unitPrice:  100, totalAmount: 500},
+  {name: 'Nike Sneakers', unit: 'pieces', quantity: 25, unitPrice: 4000, totalAmount: 10000},
+  {name: 'Pencil', unit: 'dozen', quantity: 5, unitPrice:  100, totalAmount: 500},
+  {name: 'Nike Sneakers', unit: 'pieces', quantity: 25, unitPrice: 4000, totalAmount: 10000},
+  {name: 'Pencil', unit: 'dozen', quantity: 5, unitPrice:  100, totalAmount: 500}
+];
