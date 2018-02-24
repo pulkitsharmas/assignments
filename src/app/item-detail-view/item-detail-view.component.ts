@@ -8,6 +8,7 @@ import { Component, OnInit} from '@angular/core';
 export class ItemDetailViewComponent implements OnInit {
 
   constructor() { }
-  
+  ngOnInit() {
+  }
 
 }
