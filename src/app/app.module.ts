@@ -21,7 +21,7 @@ import { CardViewComponent } from './card-view/card-view.component';
 import { TableViewComponent } from './table-view/table-view.component';
 import { ItemDetailViewComponent } from './item-detail-view/item-detail-view.component';
 import {MatTableModule} from '@angular/material/';
-import {MatDialogModule} from '@angular/material/dialog';
+
 
 @NgModule({
   declarations: [
@@ -37,7 +37,7 @@ import {MatDialogModule} from '@angular/material/dialog';
     BrowserModule,
     MatCheckboxModule,
     MatListModule,
-    MatDialogModule,
+    
     MatSidenavModule,
     MatTableModule,
     MatInputModule,
