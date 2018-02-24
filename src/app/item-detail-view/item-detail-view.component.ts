@@ -1,5 +1,5 @@
-import { Component, OnInit , Inject} from '@angular/core';
-import {MatDialog, MatDialogRef, MAT_DIALOG_DATA} from '@angular/material';
+import { Component, OnInit} from '@angular/core';
+
 @Component({
   selector: 'app-item-detail-view',
   templateUrl: './item-detail-view.component.html',
@@ -7,12 +7,7 @@ import {MatDialog, MatDialogRef, MAT_DIALOG_DATA} from '@angular/material';
 })
 export class ItemDetailViewComponent implements OnInit {
 
-  constructor(
-    public dialogRef: MatDialogRef<DialogOverviewExampleDialog>,
-    @Inject(MAT_DIALOG_DATA) public data: any) { }
-
-  onNoClick(): void {
-    this.dialogRef.close();
-  }
+  constructor() { }
+  
 
 }
